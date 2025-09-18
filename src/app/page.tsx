@@ -9,7 +9,7 @@ import About from './components/about/about'
 import Navbar from './components/header/navbar'
 import Showcase from './components/showcase/showcase'
 export default function Home() {
-  const [isLoadingComplete, setIsLoadingComplete] = useState(true)
+  const [isLoadingComplete, setIsLoadingComplete] = useState(false)
   const cursorRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {

@@ -10,6 +10,7 @@ gsap.registerPlugin(ScrollTrigger)
 const space_Grotesk = Space_Grotesk({
 
   weight: '700',
+  subsets: ['latin'], // Specify the subset to fix preload error
 })
 
 
